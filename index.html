@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" sizes="50x50" href="img/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Starbucks Website Landing Page</title>
+</head>
+
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="index.html" class="logo"><img src="img/logo.png" alt=""></a>
+            <div class="toggle" onclick="toggleMenu()"></div>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Whats's New</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee<br>It's <span id="star">Starbucks</span></h2>
+                <p>Starbucks é uma empresa multinacional norte-americana, com a maior cadeia de cafeterias do mundo, que
+                    atualmente tem
+                    cafeterias em todo o mundo. Tem sua sede na cidade de Seattle, estado de Washington.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox imgFade">
+                <img src="img/bucks1.png" class="starbucks">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="img/thumb1.png" onclick="imgSlider('img/bucks1.png');changeCircleColor('#017143')"
+                    alt="bucks2"></li>
+            <li><img src="img/thumb2.png" onclick="imgSlider('img/bucks2.png');changeCircleColor('#eb7495')"
+                    alt="bucks1"></li>
+            <li><img src="img/thumb3.png" onclick="imgSlider('img/bucks3.png');changeCircleColor('#d752b1') "
+                    alt="bucks3"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="https://www.facebook.com/cocacolabr/?brand_redir=40796308305"><img src="img/facebook.png"
+                        id="sic" alt="Facebook Starbucks"></a></li>
+            <li><a href="https://www.instagram.com/cocacola_br/"><img src="img/instagram.png" id="sic"
+                        alt="Instagram Starbucks"></a></li>
+            <li><a href="https://twitter.com/CocaCola_Br"><img src="img/twitter.png" id="sic"
+                        alt="Twitter Starbucks"></a></li>
+        </ul>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
