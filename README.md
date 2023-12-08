@@ -1,6 +1,6 @@
 # Starbucks Café
 
-![Starbucks Logo](https://example.com/starbucks-logo.png)
+![Starbucks Logo](https://github.com/EduardoDosSantosFerreira/project-stars/blob/main/img/logo.png)
 
 Bem-vindo ao Starbucks Café, onde cada xícara conta uma história única!
 
